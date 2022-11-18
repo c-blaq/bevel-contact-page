@@ -1,19 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Inter", sans-serif;
-  margin: 0;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 .App {
   max-width: 1440px;
   margin: 0 auto;
+}
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  margin-top: 0px;
+  padding-inline-start: 20px;
+}
+
+ul > li {
+  margin-bottom: 16px;
+}
+
+.MuiAccordion-root {
+  animation-duration: 100ms;
 }
