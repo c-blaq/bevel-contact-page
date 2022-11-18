@@ -14,15 +14,32 @@ export const HeroSection = styled.div`
   min-height: 298px;
   margin: 2rem 0;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  h1 {
+    display: none;
+  }
   @media (min-width: 768px) {
     background: url("/assets/images/contact-bg-desktop.png") center/cover;
     margin: 0;
     min-height: 331px;
+
+    h1 {
+      display: block;
+      font-size: 44px;
+      color: white;
+      font-weight: 600;
+    }
   }
 
   @media (min-width: 1200px) {
     min-height: 400px;
+
+    h1 {
+      font-size: 52px;
+    }
   }
 `;
 
@@ -80,6 +97,11 @@ export const FormSection = styled.div`
       width: 100%;
     }
 
+    input::placeholder,
+    textarea::placeholder {
+      font-size: 14px;
+    }
+
     textarea {
       height: 224px;
       padding: 10px 12px;
@@ -88,7 +110,7 @@ export const FormSection = styled.div`
     button {
       padding: 1.25rem 0;
       width: 60%;
-      color: #94a3b8;
+      color: #fafafa;
       margin-top: 1rem;
       font-size: 1.125rem;
       font-weight: 600;

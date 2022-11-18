@@ -10,7 +10,9 @@ const Contact = () => {
     <div>
       <NavComponent />
       <Container>
-        <HeroSection />
+        <HeroSection>
+          <h1>Contact us</h1>
+        </HeroSection>
         <Flex>
           <ContactForm />
           <ContactInfo />

@@ -44,7 +44,7 @@ const ContactForm = () => {
             id="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            placeholder="How can we help you"
+            placeholder="How can we help you?"
           />
         </div>
         <button disabled={!name || !email || !message}>Submit</button>
