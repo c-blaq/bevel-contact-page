@@ -1,4 +1,4 @@
-import Contact from "./container/Contact";
+import Contact from "./container/contact/Contact";
 
 function App() {
   return (
