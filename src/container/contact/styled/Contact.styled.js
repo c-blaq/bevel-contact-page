@@ -118,3 +118,103 @@ export const FormSection = styled.div`
     }
   }
 `;
+
+export const ContactInfoStyle = styled.div`
+  padding: 1.5rem 1rem 2.875rem;
+  border-top: 1px solid #a6a6a6;
+  border-bottom: 1px solid #a6a6a6;
+  margin: 0 -1rem;
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .contact-details {
+    padding-bottom: 2.875rem;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 1.75rem;
+      color: #4b4b4b;
+    }
+  }
+
+  .social-media {
+    border-top: 1px solid #a6a6a6;
+    padding: 1.5rem 1rem 0;
+    margin: 0 -1rem;
+
+    p {
+      margin: 1rem 0;
+      color: #4b4b4b;
+    }
+
+    a {
+      margin-right: 1.25rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    width: 40%;
+
+    .contact-details {
+      padding-bottom: 4.6875rem;
+
+      div {
+        margin-top: 1.5625rem;
+
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .social-media {
+      border: none;
+
+      p {
+        font-size: 14px;
+      }
+
+      a {
+        margin-right: 1.5rem;
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    h3 {
+      font-size: 31px;
+    }
+
+    .social-media {
+      border: none;
+
+      p {
+        margin: 20px 0 32px;
+      }
+
+      a {
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    h3 {
+      font-size: 40px;
+    }
+
+    .contact-details div > span,
+    .social-media p {
+      font-size: 1rem;
+    }
+  }
+`;
