@@ -26,6 +26,25 @@ export const HeroSection = styled.div`
   }
 `;
 
+export const Flex = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin-bottom: 4.5rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    padding: 0 2rem;
+    padding: 4rem 2rem;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 4rem 6rem 4.5rem;
+  }
+`;
+
 export const FormSection = styled.div`
   h2 {
     font-weight: 500;
