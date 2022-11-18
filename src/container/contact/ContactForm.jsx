@@ -23,7 +23,7 @@ const ContactForm = () => {
             id="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Flourish Ralph"
+            placeholder="Enter your name"
           />
         </div>
 
@@ -34,7 +34,7 @@ const ContactForm = () => {
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Flo@gmail.com"
+            placeholder="Enter your email"
           />
         </div>
 
@@ -44,7 +44,7 @@ const ContactForm = () => {
             id="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            placeholder="Hi, I would like to know more about your services."
+            placeholder="How can we help you"
           />
         </div>
         <button disabled={!name || !email || !message}>Submit</button>

@@ -68,11 +68,12 @@ export const FormSection = styled.div`
     label {
       font-weight: 500;
       margin-bottom: 4px;
+      display: block;
     }
 
     input,
     textarea {
-      padding: 12px;
+      padding: 16px 12px;
       border: 1px solid #d1d5db;
       box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
       border-radius: 6px;
@@ -81,6 +82,7 @@ export const FormSection = styled.div`
 
     textarea {
       height: 224px;
+      padding: 10px 12px;
     }
 
     button {
