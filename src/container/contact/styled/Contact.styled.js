@@ -82,6 +82,22 @@ export const FormSection = styled.div`
     textarea {
       height: 224px;
     }
+
+    button {
+      padding: 1.25rem 0;
+      width: 60%;
+      color: #94a3b8;
+      margin-top: 1rem;
+      font-size: 1.125rem;
+      font-weight: 600;
+      border-radius: 5px;
+      border: none;
+      background: #00296b;
+    }
+
+    button:disabled {
+      background: #e2e8f0;
+    }
   }
 
   @media (min-width: 768px) {
