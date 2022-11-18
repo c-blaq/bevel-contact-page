@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import contactBg from "../../../assets/images/contact-bg.png";
+import contactBgDesktop from "../../../assets/images/contact-bg-desktop.png";
 
 export const Container = styled.section`
   padding: 0 1rem;
@@ -17,6 +18,7 @@ export const HeroSection = styled.div`
   width: 100%;
 
   @media (min-width: 768px) {
+    background: url(${contactBgDesktop}) center/cover;
     margin: 0;
     min-height: 331px;
   }
