@@ -1,7 +1,8 @@
 import React from "react";
 import Footer from "../../component/footer/Footer";
 import Header from "../../component/header/Header";
-import { Container, HeroSection } from "./styled/Contact.styled";
+import ContactForm from "./ContactForm";
+import { Container, Flex, HeroSection } from "./styled/Contact.styled";
 
 const Contact = () => {
   return (
@@ -9,6 +10,9 @@ const Contact = () => {
       <Header />
       <Container>
         <HeroSection />
+        <Flex>
+          <ContactForm />
+        </Flex>
       </Container>
       <Footer />
     </div>
