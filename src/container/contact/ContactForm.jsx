@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../component/Button/Button";
 import { FormSection } from "./styled/Contact.styled";
 
 const ContactForm = () => {
@@ -30,7 +31,7 @@ const ContactForm = () => {
             placeholder="Hi, I would like to know more about your services."
           />
         </div>
-        <button disabled>Submit</button>
+        <Button text="Contact me" disabled />
       </form>
     </FormSection>
   );
